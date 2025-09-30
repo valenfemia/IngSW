@@ -176,25 +176,6 @@ CREATE TABLE IF NOT EXISTS products (
 # Variables locales desde .env
 npm install
 npm run start
-# La app quedará en http://localhost:80 (requiere permisos) o considerá cambiar PORT=3000 localmente.
 ```
 
 ---
-
-## 6) Checklist de la entrega (Tarea 4)
-
-- [x] **README** creado con pasos claros.
-- [x] **Puerto** por defecto cambiado a **80** (manteniendo `process.env.PORT` para EB).
-- [x] **DB** migrada a **MySQL/PostgreSQL** con Sequelize.
-- [x] Ejemplos de **SQL** y **.env** incluidos.
-- [x] Instrucciones para **EC2/EB/Local**.
-
----
-
-## 7) Archivos tocados/resumen
-
-- `README.md` (este archivo)
-- `package.json` (scripts + dependencias)
-- `server.js` (PORT + conexión DB)
-- `.env` (no commitear — usar `.env.example` si preferís)
-- **Opcional**: `public/` para UI estática, `.ebextensions/` si automatizás config extra.
